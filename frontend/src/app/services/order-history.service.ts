@@ -9,13 +9,13 @@ import { OrderHistory } from '../common/order-history';
 })
 export class OrderHistoryService {
 
-  private orderUrl = environment.frozenCowApiUrl + '/orders';
+  private orderUrl = environment.luv2shopApiUrl + '/orders';
 
   constructor(private httpClient: HttpClient) { }
 
-  getOrderHistory(theEmail: string): Observable <GetResponseOrderHistory>{
+  getOrderHistory(theEmail: string): Observable<GetResponseOrderHistory> {
 
-    //need to build URL based on customer email
+    // need to build URL based on the customer email
     const orderHistoryUrl = `${this.orderUrl}/search/findByCustomerEmailOrderByDateCreatedDesc?email=${theEmail}`;
 
     return this.httpClient.get<GetResponseOrderHistory>(orderHistoryUrl);
@@ -23,7 +23,7 @@ export class OrderHistoryService {
 }
 
 interface GetResponseOrderHistory {
-  _embedded:{
+  _embedded: {
     orders: OrderHistory[];
   }
 }

@@ -1,9 +1,9 @@
 /*
-    Copy from styles.css -> .au-btn.submit
+    Copy from styles.css -> .au-btn-submit
     Rename as .security-btn
     Change border to 10px
 */
-.security-btn{
+.security-btn {
     position:relative;
     right:0;
     min-width:95px;
@@ -14,11 +14,6 @@
     border-radius:43px;
     background:#205b8d
 }
-.security-btn:hover{
-    border:10px solid #05143f;
-    background:#05143f
-}
-
 
 /*
     Copy from styles.css -> .form-header
@@ -29,16 +24,16 @@
     display:-webkit-flex;
     display:-moz-box;
     display:-ms-flexbox;
-    display:flex;
+    display:flex
 }
 
 /*
     Copy from styles.css -> .au-input
-    Remane as .login-status-user-info
-    -remove 'solid', 'font-size', 'color'
+    Rename as .login-status-user-info
+    - remove 'solid', 'font-size', 'color'
 */
-.login-status-user-info{
-    line-height:40px;
+.login-status-user-info {
+    line-height:43px;
     border:1px;
     padding:0 17px;
     -webkit-border-radius:3px;
@@ -47,5 +42,10 @@
     -webkit-transition:all .5s ease;
     -o-transition:all .5s ease;
     -moz-transition:all .5s ease;
-    transition:all .5s ease;
+    transition:all .5s ease
 }
+
+
+
+
+

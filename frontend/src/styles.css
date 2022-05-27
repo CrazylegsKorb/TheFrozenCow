@@ -725,7 +725,7 @@ table.table.table-bordered th{
 }
 
 .detail-img{
-    width:30%;
+    width: 30%;
 }
 
 /**/
@@ -946,7 +946,6 @@ footer ul li{
         .main-content.page-m{
         padding:10% 0!important
     }
-    
     .header-mobile .navbar-mobile{
         display:none;
         position:absolute;

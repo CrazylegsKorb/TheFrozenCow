@@ -1,8 +1,8 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 import { Country } from '../common/country';
-import { map } from 'rxjs/operators'
+import { map } from 'rxjs/operators';
 import { State } from '../common/state';
 import { environment } from 'src/environments/environment';
 
@@ -11,8 +11,8 @@ import { environment } from 'src/environments/environment';
 })
 export class Luv2ShopFormService {
 
-  private countriesUrl = environment.frozenCowApiUrl + '/countries';
-  private statesUrl = environment.frozenCowApiUrl + '/states';
+  private countriesUrl = environment.luv2shopApiUrl + '/countries';
+  private statesUrl = environment.luv2shopApiUrl + '/states';
 
   constructor(private httpClient: HttpClient) { }
 
@@ -24,7 +24,8 @@ export class Luv2ShopFormService {
   }
 
   getStates(theCountryCode: string): Observable<State[]> {
-    //search url
+
+    // search url
     const searchStatesUrl = `${this.statesUrl}/search/findByCountryCode?code=${theCountryCode}`;
 
     return this.httpClient.get<GetResponseStates>(searchStatesUrl).pipe(
@@ -32,11 +33,13 @@ export class Luv2ShopFormService {
     );
   }
 
-  getCreditCardMonths(startMonth: number): Observable<number[]> {
-    let data: number[] = [];
 
-    //build an array for "Month" dropdown list
-    // - start at current month and loop until
+  getCreditCardMonths(startMonth: number): Observable<number[]> {
+
+    let data: number[] = [];
+    
+    // build an array for "Month" dropdown list
+    // - start at current month and loop until 
 
     for (let theMonth = startMonth; theMonth <= 12; theMonth++) {
       data.push(theMonth);
@@ -46,11 +49,12 @@ export class Luv2ShopFormService {
   }
 
   getCreditCardYears(): Observable<number[]> {
+
     let data: number[] = [];
 
-    //build an array for "Year" downlist list
-    // - start at current year and loop for the next 10 years
-
+    // build an array for "Year" downlist list
+    // - start at current year and loop for next 10 years
+    
     const startYear: number = new Date().getFullYear();
     const endYear: number = startYear + 10;
 
