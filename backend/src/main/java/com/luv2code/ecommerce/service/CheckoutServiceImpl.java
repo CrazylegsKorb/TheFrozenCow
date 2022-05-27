@@ -11,15 +11,23 @@ import com.luv2code.ecommerce.entity.OrderItem;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import lombok.extern.slf4j.Slf4j;
+
 import javax.transaction.Transactional;
 import java.util.*;
 
+@Slf4j
 @Service
 public class CheckoutServiceImpl implements CheckoutService{
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private CustomerRepository customerRepository;
 
@@ -68,6 +76,8 @@ public class CheckoutServiceImpl implements CheckoutService{
 
         //save to the database
         customerRepository.save(customer);
+
+        logger.info("This is where the customer is saved;\nCustomer Email:  " + theEmail);
 
         //return a response
         return new PurchaseResponse(orderTrackingNumber);
