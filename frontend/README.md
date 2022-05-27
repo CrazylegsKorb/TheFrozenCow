@@ -26,3 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+<br>
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=crazylegskorb_TheFrozenCowBack&metric=coverage)](https://sonarcloud.io/summary/new_code?id=crazylegskorb_TheFrozenCowBack)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=crazylegskorb_TheFrozenCowBack&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=crazylegskorb_TheFrozenCowBack)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=crazylegskorb_TheFrozenCowBack&metric=bugs)](https://sonarcloud.io/summary/new_code?id=crazylegskorb_TheFrozenCowBack)
+<br>
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=crazylegskorb_TheFrozenCowBack)
