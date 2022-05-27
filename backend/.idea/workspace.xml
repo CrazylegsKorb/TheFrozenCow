@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e495c35e-a21b-43f9-8952-ede59786a359" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e495c35e-a21b-43f9-8952-ede59786a359" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CoverUsage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/controller/CheckoutControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/service/CheckoutServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dao/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dao/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dto/PaymentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dto/PaymentInfo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,54 +34,206 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
     </option>
   </component>
-  <component name="ProjectId" id="1T5SShrkYtJQZuPVEfuEFvmLy92" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="1T5SShrkYtJQZuPVEfuEFvmLy92" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "S:/Users/Dex Rhys/Documents/ecommerce-project-release-3.0/backend",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "b43fdd98b1fd705ae4c3a10cf25aad8a"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="SpringBootEcommerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.ecommerce.SpringBootEcommerceApplication" />
-      <module name="spring-boot-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.ecommerce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Diffblue Cover.Write tests for package ">
+    <configuration name="spring-boot-ecommerce [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
+    <configuration name="spring-boot-ecommerce [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class CheckoutController" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="backend" />
+      <settings run-config-name="Write tests for class CheckoutController" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.controller.CheckoutController" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class CheckoutService" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="backend" />
+      <settings run-config-name="Write tests for class CheckoutService" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.service.CheckoutService" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class CheckoutServiceImpl" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="backend" />
+      <settings run-config-name="Write tests for class CheckoutServiceImpl" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.service.CheckoutServiceImpl" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class Customer" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="backend" />
+      <settings run-config-name="Write tests for class Customer" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.entity.Customer" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method CheckoutServiceImpl.&lt;init&gt;" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="backend" />
+      <settings run-config-name="Write tests for method CheckoutServiceImpl.&lt;init&gt;" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.service.CheckoutServiceImpl.&lt;init&gt;:(Lcom/luv2code/ecommerce/dao/CustomerRepository;Ljava/lang/String;)V" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method CheckoutServiceImpl.placeOrder" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="backend" />
+      <settings run-config-name="Write tests for method CheckoutServiceImpl.placeOrder" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.service.CheckoutServiceImpl.placeOrder:(Lcom/luv2code/ecommerce/dto/Purchase;)Lcom/luv2code/ecommerce/dto/PurchaseResponse;" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for package entity" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="backend" />
+      <settings run-config-name="Write tests for package entity" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>package</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.entity" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for package " type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="backend" />
+      <settings run-config-name="Write tests for package " include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>package</selection-scope>
+        <selected-element key="" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Diffblue Cover.Write tests for class CheckoutController" />
+      <item itemvalue="Diffblue Cover.Write tests for class CheckoutServiceImpl" />
+      <item itemvalue="Diffblue Cover.Write tests for class Customer" />
+      <item itemvalue="Diffblue Cover.Write tests for package " />
+      <item itemvalue="Diffblue Cover.Write tests for package entity" />
+      <item itemvalue="Diffblue Cover.Write tests for class CheckoutService" />
+      <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.&lt;init&gt;" />
+      <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.placeOrder" />
+      <item itemvalue="Maven.spring-boot-ecommerce [clean,install]" />
+      <item itemvalue="Maven.spring-boot-ecommerce [spring-boot:run]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringBootEcommerceApplication" />
+        <item itemvalue="Diffblue Cover.Write tests for package " />
+        <item itemvalue="Diffblue Cover.Write tests for package entity" />
+        <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.&lt;init&gt;" />
+        <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.placeOrder" />
+        <item itemvalue="Diffblue Cover.Write tests for class CheckoutServiceImpl" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,8 +244,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572748464652</updated>
+      <workItem from="1653671996744" duration="75000" />
+      <workItem from="1653672083509" duration="909000" />
+      <workItem from="1653673013195" duration="3189000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
