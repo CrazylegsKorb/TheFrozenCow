@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e495c35e-a21b-43f9-8952-ede59786a359" name="Default Changelist" comment="" />
+    <list default="true" id="e495c35e-a21b-43f9-8952-ede59786a359" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/product-list/product-list-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +239,7 @@
       <updated>1572748464652</updated>
       <workItem from="1653671996744" duration="75000" />
       <workItem from="1653672083509" duration="909000" />
-      <workItem from="1653673013195" duration="5994000" />
+      <workItem from="1653673013195" duration="6369000" />
     </task>
     <servers />
   </component>
