@@ -42,6 +42,11 @@ export class LoginStatusComponent implements OnInit {
 
           // now store the email in browser storage
           this.storage.setItem('userEmail', JSON.stringify(theEmail));
+
+          const theGroups = res['groups'];
+          this.storage.setItem('isAdmin', theGroups.includes('Admin'));
+
+          console.log(res);
         }
       );
     }
@@ -50,5 +55,6 @@ export class LoginStatusComponent implements OnInit {
   logout() {
     // Terminates the session with Okta and removes current tokens.
     this.oktaAuthService.signOut();
+    this.storage.clear();
   }
 }
