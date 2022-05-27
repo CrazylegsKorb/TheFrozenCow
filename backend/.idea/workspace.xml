@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e495c35e-a21b-43f9-8952-ede59786a359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CoverUsage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/controller/CheckoutControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/service/CheckoutServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/dto/PaymentInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/dto/PurchaseResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/ecommerce/dto/PurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dao/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dao/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dto/PaymentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/dto/PaymentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-ecommerce-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-ecommerce-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luv2code.ecommerce.SpringBootEcommerceApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luv2code.ecommerce.SpringBootEcommerceApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luv2code.ecommerce.service.CheckoutServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luv2code.ecommerce.service.CheckoutServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.luv2code.ecommerce.SpringBootEcommerceApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.luv2code.ecommerce.SpringBootEcommerceApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.luv2code.ecommerce.service.CheckoutServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.luv2code.ecommerce.service.CheckoutServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/config/my-app-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/config/my-app-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +92,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for package ">
+  <component name="RunManager" selected="Maven.spring-boot-ecommerce [spring-boot:run]">
     <configuration name="spring-boot-ecommerce [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -139,21 +144,19 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="SpringBootEcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.ecommerce.SpringBootEcommerceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Write tests for class CheckoutController" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="backend" />
       <settings run-config-name="Write tests for class CheckoutController" include-system-env-vars="true">
         <jvm-args />
         <selection-scope>class</selection-scope>
         <selected-element key="com.luv2code.ecommerce.controller.CheckoutController" />
-      </settings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Write tests for class CheckoutService" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="backend" />
-      <settings run-config-name="Write tests for class CheckoutService" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.luv2code.ecommerce.service.CheckoutService" />
       </settings>
       <method v="2" />
     </configuration>
@@ -175,39 +178,47 @@
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for method CheckoutServiceImpl.&lt;init&gt;" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="Write tests for class CustomerRepository" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
       <module name="backend" />
-      <settings run-config-name="Write tests for method CheckoutServiceImpl.&lt;init&gt;" include-system-env-vars="true">
+      <settings run-config-name="Write tests for class CustomerRepository" include-system-env-vars="true">
         <jvm-args />
-        <selection-scope>method</selection-scope>
-        <selected-element key="com.luv2code.ecommerce.service.CheckoutServiceImpl.&lt;init&gt;:(Lcom/luv2code/ecommerce/dao/CustomerRepository;Ljava/lang/String;)V" />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.dao.CustomerRepository" />
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for method CheckoutServiceImpl.placeOrder" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="Write tests for class PaymentInfo" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
       <module name="backend" />
-      <settings run-config-name="Write tests for method CheckoutServiceImpl.placeOrder" include-system-env-vars="true">
+      <settings run-config-name="Write tests for class PaymentInfo" include-system-env-vars="true">
         <jvm-args />
-        <selection-scope>method</selection-scope>
-        <selected-element key="com.luv2code.ecommerce.service.CheckoutServiceImpl.placeOrder:(Lcom/luv2code/ecommerce/dto/Purchase;)Lcom/luv2code/ecommerce/dto/PurchaseResponse;" />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.dto.PaymentInfo" />
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for package entity" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="Write tests for class Purchase" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
       <module name="backend" />
-      <settings run-config-name="Write tests for package entity" include-system-env-vars="true">
+      <settings run-config-name="Write tests for class Purchase" include-system-env-vars="true">
         <jvm-args />
-        <selection-scope>package</selection-scope>
-        <selected-element key="com.luv2code.ecommerce.entity" />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.dto.Purchase" />
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for package " type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="Write tests for class PurchaseResponse" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
       <module name="backend" />
-      <settings run-config-name="Write tests for package " include-system-env-vars="true">
+      <settings run-config-name="Write tests for class PurchaseResponse" include-system-env-vars="true">
         <jvm-args />
-        <selection-scope>package</selection-scope>
-        <selected-element key="" />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.luv2code.ecommerce.dto.PurchaseResponse" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for prefix unknown" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="backend" />
+      <settings run-config-name="Write tests for prefix unknown" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>prefix</selection-scope>
       </settings>
       <method v="2" />
     </configuration>
@@ -215,21 +226,22 @@
       <item itemvalue="Diffblue Cover.Write tests for class CheckoutController" />
       <item itemvalue="Diffblue Cover.Write tests for class CheckoutServiceImpl" />
       <item itemvalue="Diffblue Cover.Write tests for class Customer" />
-      <item itemvalue="Diffblue Cover.Write tests for package " />
-      <item itemvalue="Diffblue Cover.Write tests for package entity" />
-      <item itemvalue="Diffblue Cover.Write tests for class CheckoutService" />
-      <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.&lt;init&gt;" />
-      <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.placeOrder" />
+      <item itemvalue="Diffblue Cover.Write tests for class CustomerRepository" />
+      <item itemvalue="Diffblue Cover.Write tests for class PaymentInfo" />
+      <item itemvalue="Diffblue Cover.Write tests for class Purchase" />
+      <item itemvalue="Diffblue Cover.Write tests for class PurchaseResponse" />
+      <item itemvalue="Diffblue Cover.Write tests for prefix unknown" />
       <item itemvalue="Maven.spring-boot-ecommerce [clean,install]" />
       <item itemvalue="Maven.spring-boot-ecommerce [spring-boot:run]" />
+      <item itemvalue="Spring Boot.SpringBootEcommerceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Diffblue Cover.Write tests for package " />
-        <item itemvalue="Diffblue Cover.Write tests for package entity" />
-        <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.&lt;init&gt;" />
-        <item itemvalue="Diffblue Cover.Write tests for method CheckoutServiceImpl.placeOrder" />
-        <item itemvalue="Diffblue Cover.Write tests for class CheckoutServiceImpl" />
+        <item itemvalue="Diffblue Cover.Write tests for class PurchaseResponse" />
+        <item itemvalue="Diffblue Cover.Write tests for class Purchase" />
+        <item itemvalue="Diffblue Cover.Write tests for class PaymentInfo" />
+        <item itemvalue="Diffblue Cover.Write tests for class CustomerRepository" />
+        <item itemvalue="Diffblue Cover.Write tests for prefix unknown" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +258,7 @@
       <updated>1572748464652</updated>
       <workItem from="1653671996744" duration="75000" />
       <workItem from="1653672083509" duration="909000" />
-      <workItem from="1653673013195" duration="3189000" />
+      <workItem from="1653673013195" duration="5572000" />
     </task>
     <servers />
   </component>

@@ -1,2 +1,6 @@
+com\luv2code\ecommerce\dto\PurchaseTest.class
+com\luv2code\ecommerce\controller\CheckoutControllerTest.class
 com\luv2code\ecommerce\service\CheckoutServiceImplTest.class
+com\luv2code\ecommerce\dto\PurchaseResponseTest.class
+com\luv2code\ecommerce\dto\PaymentInfoTest.class
 com\luv2code\ecommerce\SpringBootEcommerceApplicationTests.class
