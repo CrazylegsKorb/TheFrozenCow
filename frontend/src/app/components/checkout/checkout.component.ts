@@ -43,6 +43,8 @@ export class CheckoutComponent implements OnInit {
   displayError: any = "";
 
   isDisabled: boolean = false;
+  // NullInjectorError: No provider for FormBuilder!
+  form: typeof FormGroup;
 
   constructor(private formBuilder: FormBuilder,
               private luv2ShopFormService: Luv2ShopFormService,

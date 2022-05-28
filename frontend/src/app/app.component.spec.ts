@@ -1,6 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { NgbPagination } from '@ng-bootstrap/ng-bootstrap';
+import { ReactiveFormsModule } from '@angular/forms';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -9,7 +10,8 @@ describe('AppComponent', () => {
         AppComponent
       ],
       imports: [
-        NgbPagination
+        NgbPagination,
+        ReactiveFormsModule
       ]
     }).compileComponents();
   }));
