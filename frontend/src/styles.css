@@ -579,7 +579,7 @@ input.au-input.au-input-xl{
     border:3px solid #ccc
 }
 .form-area h3{
-    position:absolute;
+    position:inherit;
     top:-26px;
     left:13px;
     background:#e5e5e5;

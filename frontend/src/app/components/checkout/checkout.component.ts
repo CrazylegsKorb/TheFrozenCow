@@ -43,6 +43,8 @@ export class CheckoutComponent implements OnInit {
   displayError: any = "";
 
   isDisabled: boolean = false;
+  ShippingSameAsBilling: boolean = false;
+
   // NullInjectorError: No provider for FormBuilder!
   form: typeof FormGroup;
 
@@ -137,7 +139,7 @@ export class CheckoutComponent implements OnInit {
 
     this.luv2ShopFormService.getCountries().subscribe(
       data => {
-        console.log("Retrieved countries: " + JSON.stringify(data));
+        //console.log("Retrieved countries: " + JSON.stringify(data));
         this.countries = data;
       }
     );
@@ -211,6 +213,8 @@ export class CheckoutComponent implements OnInit {
   copyShippingAddressToBillingAddress(event) {
 
     if (event.target.checked) {
+      this.ShippingSameAsBilling=true;
+
       this.checkoutFormGroup.controls.billingAddress
             .setValue(this.checkoutFormGroup.controls.shippingAddress.value);
 
@@ -219,6 +223,7 @@ export class CheckoutComponent implements OnInit {
 
     }
     else {
+      this.ShippingSameAsBilling = false;
       this.checkoutFormGroup.controls.billingAddress.reset();
 
       // bug fix for states
