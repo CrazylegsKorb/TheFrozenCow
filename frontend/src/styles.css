@@ -3,6 +3,7 @@
  * Common CSS
  * ----------------------------
  */
+ @import url("hover.css");
 
  *{
     margin:0;
@@ -106,7 +107,7 @@ a,a:hover{
 
 .page-wrapper{
     overflow:hidden;
-    background:#e5e5e5;
+    background:#F4E0AE;
     padding-bottom:8vh
 }
 
@@ -117,7 +118,8 @@ a,a:hover{
 
 .main-content{
     padding-top:116px;
-    min-height:100vh
+    min-height:100vh;
+    background-color: #F4E0AE;
 }
 
 aside.menu-sidebar.d-none.d-lg-block.clr{
@@ -134,7 +136,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
  */
 
 .header-desktop{
-    background:#0da8e4;
+    background:#519E8A;
     -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
@@ -210,7 +212,7 @@ section{
 }
 
 .section-content-p30{
-    padding:0 30px
+    padding:0 30px;
 }
 
 .au-input-xl{
@@ -250,11 +252,11 @@ input.au-input.au-input-xl{
 }
 
 .total{
-    background:#205b8d;
+    background:#476A6F;
     line-height:43px;
     color:#fff;
     border-radius:30px;
-    border:1px solid #0da8e4;
+    border:1px solid #476A6F;
     float:left;
     margin-top:7px;
     padding-left:17px
@@ -283,15 +285,15 @@ input.au-input.au-input-xl{
     right:0;
     min-width:95px;
     color:#fff;
-    border:1px solid #205b8d;
+    border:1px solid #476A6F;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:43px;
-    background:#205b8d
+    background:#476A6F
 }
 
 .au-btn-submit:hover{
-    background:#05143f
+    background:#476A6F
 }
 
 .au-btn-submit>i{
@@ -324,7 +326,7 @@ input.au-input.au-input-xl{
 }
 
 .menu-sidebar .logo{
-    background:#fff;
+    background:#407e6d;
     height:75px;
     padding:0 35px;
     display:-webkit-box;
@@ -358,7 +360,8 @@ input.au-input.au-input-xl{
     position:relative;
     height:-webkit-calc(100vh - 75px);
     height:-moz-calc(100vh - 75px);
-    height:calc(100vh - 75px)
+    height:calc(100vh - 75px);
+    background-color: #519E8A;
 }
 
 .navbar-sidebar{
@@ -368,7 +371,7 @@ input.au-input.au-input-xl{
 
 .navbar-sidebar .navbar-list li a{
     display:block;
-    color:#555;
+    color:#FFF;
     font-size:16px;
     padding:5px 0
 }
@@ -378,7 +381,7 @@ input.au-input.au-input-xl{
 }
 
 .navbar-sidebar .navbar-list li a:hover{
-    color:#0da8e4
+    color: #e5e5e5
 }
 
 /* 
@@ -524,7 +527,7 @@ input.au-input.au-input-xl{
  */
 
 .product-box img {
-    width: 150px;
+    width: 200px;
 }
 
 .items select {
@@ -537,7 +540,10 @@ input.au-input.au-input-xl{
     margin-left: 5px;
 }
 .product-box{
-    margin-bottom:60px
+    margin-bottom:60px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 .price{
     margin:15px 0 0;
@@ -742,7 +748,7 @@ table.table.table-bordered th{
     border-color:#0da8e4!important
 }
 a.primary-btn{
-    background:#05143f;
+    background:#476A6F;
     padding:7px 20px;
     text-align:center;
     display:inline-block;
@@ -850,7 +856,7 @@ footer ul li{
         padding-left:0
     }
      .page-wrapper{
-        background:#e5e5e5;
+        background:#F4E0AE;
         padding-bottom:12vh
     }
      .main-content{
@@ -871,7 +877,7 @@ footer ul li{
         min-width:350px
     }
       .logo{
-        text-align:center
+        text-align:center;
     }
     .header-desktop{
         position:relative;
@@ -983,20 +989,22 @@ footer ul li{
         text-align:centerg
     }
     .page-container{
+        background-color: #F4E0AE;
         position:relative;
         top:66px;
-        padding-left:0
+        padding-left:0px;
     }
+
     .au-btn-submit{
         position:relative;
         right:10px;
         min-width:85px;
         color:#fff;
-        border:1px solid #205b8d;
+        border:1px solid #476A6F;
         -webkit-border-radius:3px;
         -moz-border-radius:3px;
         border-radius:0;
-        background:#205b8d
+        background:#519E8A;
     }
     input.au-input.au-input-xl{
         border-radius:0!important;
@@ -1025,11 +1033,11 @@ footer ul li{
         margin-left:6px
     }
     .total{
-        background:#205b8d;
+        background:#476A6F;
         line-height:30px;
         color:#fff;
         border-radius:30px;
-        border:1px solid #205b8d;
+        border:1px solid #476A6F;
         float:left;
         margin-top:9px;
         padding-left:12px

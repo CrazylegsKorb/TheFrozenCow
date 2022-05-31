@@ -25,6 +25,7 @@
     "@okta/okta-angular": "^3.0.1",
     "@okta/okta-signin-widget": "^5.12.0",
     "bootstrap": "^4.4.1",
+    "hover.css": "^2.3.2",
     "rxjs": "~6.5.4",
     "stripe": "^8.179.0",
     "tslib": "^2.0.0",

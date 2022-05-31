@@ -7,7 +7,8 @@
                 <div *ngFor="let tempProduct of products" class="col-md-3">
 
                     <div class="product-box">
-
+                    <div class="hvr-grow-shadow">
+                        
                         <a routerLink="/products/{{ tempProduct.id }}">
                             <img src="{{ tempProduct.imageUrl }}" class="img-responsive">
                         </a>
@@ -17,9 +18,10 @@
                         </a>
                         <div>
                             <div class="price">{{ tempProduct.unitPrice | currency:'USD' }} </div>
-                            <div> {{ tempProduct.units_in_stock }} </div>
+                            <div>Units in stock: {{ tempProduct.unitsInStock }}</div>
                         </div>
-                        <button (click)="addToCart(tempProduct)" class="btn btn-primary btn-sm">Add to cart</button>
+                        <button (click)="addToCart(tempProduct)" class="btn btn-success btn-sm">Add to cart</button>
+                    </div>
                     </div>
 
                 </div>
