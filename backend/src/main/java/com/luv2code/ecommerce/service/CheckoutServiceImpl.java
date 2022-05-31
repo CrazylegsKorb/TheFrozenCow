@@ -1,6 +1,6 @@
 package com.luv2code.ecommerce.service;
 
-
+import com.luv2code.ecommerce.dao.ProductRepository;
 import com.luv2code.ecommerce.dao.CustomerRepository;
 import com.luv2code.ecommerce.dto.PaymentInfo;
 import com.luv2code.ecommerce.dto.Purchase;
@@ -30,11 +30,13 @@ public class CheckoutServiceImpl implements CheckoutService{
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private CustomerRepository customerRepository;
+    //private ProductRepository productRepository;
 
     @Autowired
-    public CheckoutServiceImpl(CustomerRepository customerRepository,
+    public CheckoutServiceImpl(CustomerRepository customerRepository, /*ProductRepository productRepository,*/
                                @Value("${stripe.key.secret}") String secretKey) {
         this.customerRepository = customerRepository;
+        //this.productRepository = productRepository;
 
         // initialize Stripe API with secret key
         Stripe.apiKey = secretKey;
