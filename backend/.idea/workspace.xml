@@ -76,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.spring-boot-ecommerce [spring-boot:run]">
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="spring-boot-ecommerce [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -129,6 +129,7 @@
       <method v="2" />
     </configuration>
     <configuration name="SpringBootEcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.ecommerce.SpringBootEcommerceApplication" />
       <method v="2">
@@ -245,7 +246,7 @@
       <workItem from="1653673013195" duration="7214000" />
       <workItem from="1653757828288" duration="4288000" />
       <workItem from="1653835627738" duration="1211000" />
-      <workItem from="1654006124912" duration="14520000" />
+      <workItem from="1654006124912" duration="18819000" />
     </task>
     <servers />
   </component>

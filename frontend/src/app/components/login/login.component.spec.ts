@@ -1,25 +1,28 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
+
+import { RouterTestingModule } from '@angular/router/testing';
+import { OktaAuthService } from '@okta/okta-angular';
+import { of } from 'rxjs';
 
 import { LoginComponent } from './login.component';
 
-describe('LoginComponent', () => {
-  let component: LoginComponent;
-  let fixture: ComponentFixture<LoginComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ LoginComponent ]
-    })
-    .compileComponents();
+describe('AuthGuardService', () => {
+  let service: OktaAuthService;
+  let authSpy = jasmine.createSpyObj<OktaAuthService>({
+    isAuthenticated$: of(false)
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LoginComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    TestBed.configureTestingModule({
+      imports: [RouterTestingModule],
+      providers: [
+        { provide: OktaAuthService, useValue: authSpy }
+      ]
+    });
+    service = TestBed.inject(OktaAuthService);
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it('should be created', () => {
+    expect(service).toBeTruthy();
   });
 });
