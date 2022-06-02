@@ -30,13 +30,12 @@ public class CheckoutServiceImpl implements CheckoutService{
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private CustomerRepository customerRepository;
-    //private ProductRepository productRepository;
+    private ProductRepository productRepository;
 
     @Autowired
-    public CheckoutServiceImpl(CustomerRepository customerRepository, /*ProductRepository productRepository,*/
+    public CheckoutServiceImpl(CustomerRepository customerRepository,
                                @Value("${stripe.key.secret}") String secretKey) {
         this.customerRepository = customerRepository;
-        //this.productRepository = productRepository;
 
         // initialize Stripe API with secret key
         Stripe.apiKey = secretKey;
