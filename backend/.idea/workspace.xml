@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e495c35e-a21b-43f9-8952-ede59786a359" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/app/config/my-app-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/config/my-app-config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/environments/environment.ts" afterDir="false" />
@@ -246,7 +245,7 @@
       <workItem from="1653673013195" duration="7214000" />
       <workItem from="1653757828288" duration="4288000" />
       <workItem from="1653835627738" duration="1211000" />
-      <workItem from="1654006124912" duration="13807000" />
+      <workItem from="1654006124912" duration="14520000" />
     </task>
     <servers />
   </component>
