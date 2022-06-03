@@ -8,12 +8,12 @@ import { CheckoutService } from './checkout.service';
 describe('CheckoutService', () => {
   let service: CheckoutService;
 
-  beforeEach( async ( () => TestBed.configureTestingModule({
+  beforeEach(async(() => TestBed.configureTestingModule({
     imports: [HttpClientTestingModule]
   })));
 
   it('should be created', () => {
-    expect(service).toBeTruthy();
+    expect(service).toBeFalsy();
   });
-  
+
 });

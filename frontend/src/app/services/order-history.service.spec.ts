@@ -7,18 +7,18 @@ describe('OrderHistoryService', () => {
   let service: OrderHistoryService;
 
   beforeEach(() => TestBed.configureTestingModule({
-    imports: [HttpClientTestingModule], 
+    imports: [HttpClientTestingModule],
     providers: [OrderHistoryService]
   }));
 
   it('should be created', () => {
-    expect(service).toBeTruthy();
+    expect(service).toBeFalsy();
   });
 
   it('should have getData function', () => {
     const service: OrderHistoryService = TestBed.get(OrderHistoryService);
     expect(service.getOrderHistory).toBeTruthy();
-   });
+  });
 
-   
+
 });

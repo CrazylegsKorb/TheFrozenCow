@@ -3,8 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 //
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { RouterTestingModule } from '@angular/router/testing';
+import { environment } from 'src/environments/environment';
 import { CheckoutComponent } from './checkout.component';
+
+var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx'
+);
+var elements = stripe.elements();
 
 describe('CheckoutComponent', () => {
   // HTTP client error fix
@@ -17,12 +23,16 @@ describe('CheckoutComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CheckoutComponent ],
+      declarations: [CheckoutComponent],
       // HTTP client error fix
-      imports: [ HttpClientTestingModule ]
+      imports: [ReactiveFormsModule, RouterTestingModule, HttpClientTestingModule]
+
       //
     })
-    .compileComponents();
+
+      .compileComponents();
+    var stripe = Stripe(environment.stripePublishableKey);
+
   }));
 
   beforeEach(() => {

@@ -1,24 +1,24 @@
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\config\MyDataRestConfig.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\controller\CheckoutController.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\Order.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\ProductCategory.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\service\CheckoutService.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\Country.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dao\StateRepository.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\service\CheckoutServiceImpl.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\Product.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dto\Purchase.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\config\MyAppConfig.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dao\ProductRepository.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dao\ProductCategoryRepository.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\OrderItem.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dto\PurchaseResponse.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\Address.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dao\OrderRepository.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dao\CustomerRepository.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\Customer.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\entity\State.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\SpringBootEcommerceApplication.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dto\PaymentInfo.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\config\SecurityConfiguration.java
-S:\Users\Dex Rhys\Documents\ecommerce-project-release-3.0\backend\src\main\java\com\luv2code\ecommerce\dao\CountryRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\config\MyAppConfig.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\config\SecurityConfiguration.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\Order.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dao\CustomerRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\Country.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dao\ProductCategoryRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\service\CheckoutService.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\State.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\ProductCategory.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dao\ProductRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\Customer.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dao\OrderRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dao\CountryRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\OrderItem.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\controller\CheckoutController.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dto\PaymentInfo.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\SpringBootEcommerceApplication.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\config\MyDataRestConfig.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\Product.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dto\Purchase.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dto\PurchaseResponse.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\service\CheckoutServiceImpl.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\dao\StateRepository.java
+C:\Users\Serhan\Desktop\TheFrozenCow\backend\src\main\java\com\luv2code\ecommerce\entity\Address.java

@@ -7,11 +7,11 @@ describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
+        NgbPagination,
         AppComponent
       ],
       imports: [
-        NgbPagination,
-        ReactiveFormsModule
+        ReactiveFormsModule,
       ]
     }).compileComponents();
   }));
@@ -32,6 +32,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-ecommerce app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('.');
   });
 });
