@@ -32,6 +32,8 @@ import { MembersPageComponent } from './components/members-page/members-page.com
 import { OrderHistoryComponent } from './components/order-history/order-history.component';
 import { AuthInterceptorService } from './services/auth-interceptor.service';
 
+import { AdminComponent } from './components/admin/admin.component';
+
 
 
 const oktaConfig = Object.assign({
@@ -46,6 +48,7 @@ const oktaConfig = Object.assign({
 const routes: Routes = [
   { path: 'order-history', component: OrderHistoryComponent, canActivate: [OktaAuthGuard] },
   { path: 'members', component: MembersPageComponent, canActivate: [OktaAuthGuard] },
+  { path: 'admin', component: AdminComponent, canActivate: [OktaAuthGuard] },
 
   { path: 'login/callback', component: OktaCallbackComponent },
   { path: 'login', component: LoginComponent },
@@ -74,7 +77,8 @@ const routes: Routes = [
     LoginComponent,
     LoginStatusComponent,
     MembersPageComponent,
-    OrderHistoryComponent
+    OrderHistoryComponent,
+    AdminComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
