@@ -2,48 +2,58 @@
 import { HttpClient } from '@angular/common/http';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 //
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterTestingModule } from '@angular/router/testing';
 import { environment } from 'src/environments/environment';
 import { CheckoutComponent } from './checkout.component';
+    
+import { FormsModule } from '@angular/forms' ;
 
-var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx'
-);
-var elements = stripe.elements();
+ 
+
 
 describe('CheckoutComponent', () => {
-  // HTTP client error fix
-  let httpClient: HttpClient;
-  let httpTestingController: HttpTestingController;
-  //
   let component: CheckoutComponent;
   let fixture: ComponentFixture<CheckoutComponent>;
+  let httpClient: HttpClient;
+  let httpTestingController: HttpTestingController;
+
+ 
 
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [CheckoutComponent],
-      // HTTP client error fix
-      imports: [ReactiveFormsModule, RouterTestingModule, HttpClientTestingModule]
-
-      //
+  beforeEach(async () => {
+    window.Stripe = function () {
+      // your mock here
+      return {
+        elements: () => ({
+          create: () => ({
+            mount: () => ({ }),
+            on: () =>({})
+          })
+        })
+      }
+    }
+    await TestBed.configureTestingModule({
+      declarations: [ CheckoutComponent ],
+    
+      imports: [ HttpClientTestingModule,ReactiveFormsModule,//Add if needed 
+      FormsModule,RouterTestingModule ]
     })
+    .compileComponents();
+  });
 
-      .compileComponents();
-    var stripe = Stripe(environment.stripePublishableKey);
-
-  }));
+ 
 
   beforeEach(() => {
-    // HTTP client error fix
     httpClient = TestBed.inject(HttpClient);
     httpTestingController = TestBed.inject(HttpTestingController);
-    //
     fixture = TestBed.createComponent(CheckoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
+
+ 
 
   it('should create', () => {
     expect(component).toBeTruthy();
